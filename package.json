@@ -1,0 +1,17 @@
+{
+  "name": "hi-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sbland93/hi-typescript.git",
+  "author": "Kim Seung Beom <rltmqj@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^5.0.3"
+  },
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
+}
